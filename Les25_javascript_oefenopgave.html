@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>les25 oefenopgave</title>
+
+<script src="http://code.jquery.com/jquery-3.1.0.min.js">
+</script>
+<script type="text/javascript">
+$(document).ready(function() {
+$("#knop").click(function() {
+var naam = $("#naam").val();
+var boek = $("#boek").val();
+var film = $ ("#film").val();
+window.alert("Ik ben " + naam + " en ik lees " + boek + " en ik kijk " + film);
+});
+});
+</script>
+
+
+
+
+
+
+
+
+</head>
+<body>
+
+<form width=100% align="center">
+  Wat is uw naam?<input type="text" name="naam" placeholder="uw naam" id="naam">
+  <br>
+  Wat is uw favoriete boek?<input type="text" name="favoriete boek" placeholder="uw favoriete boek" id="boek">
+  <br>
+  Wat is uw favoriete film?<input type="text" name="favoriete film" placeholder="uw favoriete film" id="film">
+  <br>
+  <button value="druk op deze knop" id="knop" onclick="">Druk op deze knop</button>
+</form>
+
+
+
+<noscript>
+Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.
+</noscript>
+</body>
+</html>
